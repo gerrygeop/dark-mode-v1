@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-mode{
+    background: #141414;
+    color: rgb(233, 233, 233);
+}
+
+.dark-mode header{
+    border-bottom: 2px dashed gainsboro;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    padding: 20px 80px;
+    border-bottom: 2px dashed tomato;
+}
+
+nav{
+    display: flex;
+}
+
+span{
+    cursor: pointer;
+}
+
+main{
+    padding: 10px 80px;
+}
+
+#logo{
+    width: 30px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.hiden{
+    display: none;
+}
